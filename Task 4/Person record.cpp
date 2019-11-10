@@ -8,30 +8,29 @@ int main()
 {
 	string name;
 	int age;
-	string gender;
-	bool marry;
-	string married;
+	char gender;
+	bool married;
+	string mar_str;
 	float height;
 
-	cout << "Hi what's your name?" << endl;
+	cout << "Hi, what's your name?" << endl;
 	cin >> name;
 
 	cout << "How old are you?" << endl;
 	cin >> age;
 
-	cout << "What gender are you? (male/female)" << endl;
+	cout << "What gender are you? (m/f)" << endl;
 	cin >> gender;
 
-	cout << "You are married(true or false)" << endl;
-	cin >> married;
+	cout << "You are married (true/false)" << endl;
+	cin >> mar_str;
 
-	if (married == "true")
+	if (mar_str == "true")
 	
-		 marry = true;
+		 married = true;
 	
-
 	else
-		marry = false;
+		married = false;
 
 	cout << "What's your length in meters?" << endl;
 	cin >> height;
@@ -41,7 +40,7 @@ int main()
 	cout << "Name: " << name << endl;
 	cout << "Age: " << age << endl;
 	cout << "Gender: " << gender << endl;
-	cout << "Married: " << marry << endl;
+	cout << "Married: " << married << endl;
 	cout << "Height in meters: " << height << endl;
 
 
