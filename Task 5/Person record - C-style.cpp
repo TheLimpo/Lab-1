@@ -8,7 +8,7 @@ int main()
 	int age;
 	char gender;
 	int married;
-	char mar_str[10];
+	char marriedarr[10];
 	float height;
 
 	printf("Hi, what's your name?\n");
@@ -21,9 +21,9 @@ int main()
 	scanf_s(" %c", &gender,1);
 
 	printf("You are married (true/false)\n");
-	scanf_s("%9s", mar_str, sizeof(mar_str));
+	scanf_s("%9s", marriedarr, sizeof(marriedarr));
 
-	married = (mar_str == "true"|| mar_str == "True");
+	married =!(marriedarr == "f");
 	
 	
 	
