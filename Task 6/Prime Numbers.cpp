@@ -23,7 +23,7 @@ int main()
 	// i is the number to be checked in each iteration starting from 3
 	for (count = 2; count <= n; i++)
 	{
-		// iteration to check if i is prime or not. (Well, if the rest is 0. The next if statement determines if it's a prime or not)
+		// iteration to check if i is prime or not. (Well, if the rest is 0. The if statement in the first for-loop determines if it's a prime or not)
 		for (c = 2; c < i; c++)
 		{
 			if (i%c == 0)
