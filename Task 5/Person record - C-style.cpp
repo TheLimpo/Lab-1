@@ -23,7 +23,7 @@ int main()
 	printf("You are married (true/false)\n");
 	scanf_s("%9s", mar_arr, sizeof(mar_arr));
 
-	married =!(mar_arr == "false");
+	married =!(mar_arr[0] == 'f'||mar_arr[0] == 'F');
 	
 	
 	
