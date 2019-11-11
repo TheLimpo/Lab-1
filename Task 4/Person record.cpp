@@ -40,7 +40,7 @@ int main()
 	cout << "Name: " << name << endl;
 	cout << "Age: " << age << endl;
 	cout << "Gender: " << gender << endl;
-	cout << "Married: " << married << endl;
+	cout << "Married: " << (married ? "True" : "False") << endl;
 	cout << "Height in meters: " << height << endl;
 
 
