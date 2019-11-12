@@ -1,0 +1,38 @@
+Reflections from lab 1:
+
+1. I learned The basics of C++. I haven't used it before. Have little experience from C# and C, but that was 10- respective 8 years ago. 
+The python course helped me to start think programming again, but I feel like I still haven't fully got over the hurdle yet that it becomes natural.
+
+2. I did know some of the problems from before(for example we did the exact same bounce thing in python) and some I might have done before, but it was very long ago then.
+When things got difficult, googling was the easiest way to try and solve the problem. 
+That was mainly because I had to do everything at home since the computers at the school wasn't/isn't working like they should. 
+And that is a big negative. I sometimes feel like it's better to sit at school together with classmates disscussing the problem than googling it,
+because disscussing it makes you understand it better. Especially explaining a problem to someone often makes yourself understanding the problem better.
+
+3. I think the level of difficulty was pretty good for an entry level assignment. At least for me, since I'm not that experienced with programming. 
+Nested for-loops feels really necessary and important to understand for programming in general, but that concept can be hard to understand for a beginner on some level.
+So emphasasing that in the lectures, is really important.
+
+The scanf_s() modifiers should be included in the lectures. Since we can't use scanf() without disabling that warning. That was the most annoying part of the entire lab.
+And like how weird that can be sometimes. It can say that this: 
+char c;
+
+scanf_s("%c", &c, 1);
+
+is the correct way to write it for example, but then it shows that you have to put a whitespace between the first " and the % to get it to work. Like this:
+char c;
+
+scanf_s(" %c", &c, 1);
+
+And that we only found on StackOverflow.
+
+4. The computers at school and to make the code work on a different version of Visual Studio is maybe also a good thing to include in the lab-instructions. 
+Like it was now when the computers might have finally worked, not being able to run your program on a different version just made people take the lazy choise and go home instead and code.
+I think it is important to teach programmers the ability to work together early on since that's how it most likely is gonna be in the real world after school.
+
+5. Estimate of time spent: Maybe 10 hours.
+
+
+6. For info: Everything is written in Visual Studio 2019.
+
+// Linus Lundberg

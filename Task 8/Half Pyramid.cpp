@@ -18,7 +18,7 @@ int main()
 			printf("%d ", j);
 		}
 
-		printf("\n");
+		printf("\n");//Ending a row 
 	}
 	
 	printf("\nCreate a half pyramid using the alphabet.\n");
